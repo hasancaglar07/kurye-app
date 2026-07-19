@@ -34,12 +34,11 @@
 <h2 id="2-hizmet">2. Hizmet</h2>
 <p>Kurye; kullanıcının paket takip bilgisini tek yerde düzenlemesine, taşıyıcı hareketlerini görmesine, ETA/gecikme tahmini almasına, bildirim veya teslim tercihleri oluşturmasına yardımcı olur. Seller planı toplu takip, mağaza API entegrasyonu ve müşteri mesajı gibi ek araçlar sağlayabilir.</p>
 <p>Kurye bir taşıyıcı, posta işletmesi, sigorta şirketi veya pazar yeri değildir. Paket taşıma ve teslim kararları ilgili taşıyıcıya aittir.</p>
-<h2 id="3-uygunluk-ve-hesap">3. Uygunluk ve hesap</h2>
+<h2 id="3-uygunluk-ve-hesapsiz-kullanim">3. Uygunluk ve hesapsız kullanım</h2>
 <ul>
 <li>Geçerli bir sözleşme kurma yaşına sahip olmalısınız.</li>
-<li>Hesap bilgileriniz doğru olmalı ve oturumunuz korunmalıdır.</li>
-<li>Apple/Google giriş sağlayıcısının kendi koşulları ayrıca uygulanır.</li>
-<li>Hesap ilk ücretsiz sonucu görmek için zorunlu değildir; sync, satın alma veya Seller özelliklerinde istenebilir.</li>
+<li>Kurye 1.0 uygulama hesabı açmaz; paket geçmişi cihazda tutulur.</li>
+<li>Apple ID, In-App Purchase işlemini Apple tarafında yürütür ve bir Kurye hesabı değildir.</li>
 <li>Hesabınızın yetkisiz kullanıldığını düşünürseniz derhal iletişime geçin.</li>
 </ul>
 <h2 id="4-kullanıcı-ic-erig-i-ve-izin">4. Kullanıcı içeriği ve izin</h2>
@@ -92,10 +91,10 @@
 <li>Geri ödeme talepleri Apple’ın geçerli politika ve kararlarına tabidir ve Apple’ın <code>reportaproblem.apple.com</code> kanalı üzerinden yapılabilir.</li>
 <li>Kanunun zorunlu kıldığı tüketici hakları bu maddeden etkilenmez.</li>
 </ul>
-<h2 id="10-hesap-kapatma-ve-veri-silme">10. Hesap kapatma ve veri silme</h2>
+<h2 id="10-yerel-veri-silme">10. Yerel veri silme</h2>
 <ul>
-<li>Kullanıcı Ayarlar üzerinden yerel veriyi silebilir ve hesap kapatma talebi başlatabilir.</li>
-<li>Hesap kapatma, Apple aboneliğini otomatik olarak iptal etmeyebilir; abonelik ayrıca Apple’dan yönetilmelidir.</li>
+<li>Kullanıcı Ayarlar üzerinden yerel paket geçmişini ve tercihlerini silebilir.</li>
+<li>Yerel veriyi silmek veya uygulamayı kaldırmak Apple aboneliğini otomatik olarak iptal etmez; abonelik ayrıca Apple’dan yönetilmelidir.</li>
 <li>Hukuken saklanması gereken satın alma/güvenlik kayıtları sınırlı süre tutulabilir.</li>
 </ul>
 <h2 id="11-kabul-edilebilir-kullanım">11. Kabul edilebilir kullanım</h2>
@@ -144,8 +143,8 @@
 <h2 id="2-service">2. Service</h2>
 <p>Kurye helps users organize package tracking, view carrier events, receive ETA/delay estimates, and create notification or handoff preferences. Seller may provide bulk tracking, store API integration, and customer-message tools.</p>
 <p>Kurye is not a carrier, postal operator, insurer, or marketplace. Transport and delivery decisions remain with the applicable carrier.</p>
-<h2 id="3-eligibility-and-accounts">3. Eligibility and accounts</h2>
-<p>You must be old enough to form a valid contract. Account details must be accurate and secured. Provider terms apply to Apple/Google sign-in. An account is not required for the first free result but may be required for sync, purchases, export, or Seller features.</p>
+<h2 id="3-eligibility-and-account-free-use">3. Eligibility and account-free use</h2>
+<p>You must be old enough to form a valid contract. Kurye 1.0 does not create an app account; package history remains on the device. The Apple ID used for In-App Purchase is managed by Apple and is not a Kurye account.</p>
 <h2 id="4-user-content">4. User content</h2>
 <p>You represent that you may lawfully submit tracking information. Do not submit unnecessary sensitive information, payment-card data, government identifiers, or private third-party addresses. You grant Kurye only the limited rights required to provide, secure, and support the requested service. Ownership of your content remains with you.</p>
 <h2 id="5-ai-and-eta-limitations">5. AI and ETA limitations</h2>
@@ -163,8 +162,8 @@
 <p>“Restore Purchases” rechecks eligible active subscriptions or non-consumable entitlements associated with the same Apple account and does not create a second charge.</p>
 <h2 id="9-cancellation-and-refunds">9. Cancellation and refunds</h2>
 <p>Cancellation stops future renewal; access normally continues through the paid period. Kurye cannot directly reverse an App Store transaction. Refund requests are subject to Apple’s policies and decisions and may be submitted through <code>reportaproblem.apple.com</code>. Mandatory consumer remedies remain unaffected.</p>
-<h2 id="10-account-closure">10. Account closure</h2>
-<p>Users may delete local data and request account closure in Settings. Closing an account may not cancel an Apple subscription; it must also be managed through Apple. Legally required purchase/security records may be retained for limited periods.</p>
+<h2 id="10-local-data-deletion">10. Local-data deletion</h2>
+<p>Users may delete local package history and preferences in Settings. Deleting local data or uninstalling Kurye does not cancel an Apple subscription; subscriptions must be managed separately through Apple. Legally required purchase/security records may be retained for limited periods.</p>
 <h2 id="11-acceptable-use">11. Acceptable use</h2>
 <p>You may not track another person’s package without authority, misuse personal data, submit unlawful or harmful content, attack or bypass the service, evade rate limits, attempt prompt/model/secret extraction, use Kurye for unlawful surveillance or spam, or reverse engineer beyond mandatory legal rights.</p>
 <h2 id="12-third-parties">12. Third parties</h2>
@@ -178,7 +177,7 @@
 <h2 id="16-limitation-of-liability">16. Limitation of liability</h2>
 <p>To the extent permitted by law, COINFEEDBACK LTD is not responsible for indirect losses caused by carrier delay, loss, damage, misdelivery, or third-party services. Except for fraud, gross negligence, or liability that cannot be limited, aggregate direct liability is limited to amounts paid for Kurye in the 12 months before the event.</p>
 <h2 id="17-suspension-and-termination">17. Suspension and termination</h2>
-<p>Access may be suspended for security, illegality, abuse, or material breach. Where practicable, the user will receive a reason and a path to appeal or cure. Users may stop using Kurye and close their account.</p>
+<p>Access may be suspended for security, illegality, abuse, or material breach. Where practicable, the user will receive a reason and a path to appeal or cure. Users may stop using and uninstall Kurye at any time.</p>
 <h2 id="18-governing-law">18. Governing law</h2>
 <p>Subject to mandatory local consumer rights, these Terms are governed by the laws of England and Wales. Consumers retain mandatory local forum and dispute rights.</p>
 <h2 id="19-apple-terms">19. Apple terms</h2>
