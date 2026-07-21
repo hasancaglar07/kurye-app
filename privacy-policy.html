@@ -4,110 +4,131 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="color-scheme" content="light dark">
-  <meta name="description" content="Kurye Privacy Policy and Gizlilik Politikası">
   <title>Kurye Privacy Policy / Gizlilik Politikası</title>
   <style>
-    :root { color-scheme: light dark; --bg:#f7faff; --panel:#fff; --text:#10213d; --muted:#53657f; --line:#d9e4f2; --brand:#1769e0; }
-    @media (prefers-color-scheme:dark) { :root { --bg:#071323; --panel:#0d1d32; --text:#eef6ff; --muted:#adc0d8; --line:#263a55; --brand:#72a8ff; } }
-    * { box-sizing:border-box; }
-    body { margin:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; line-height:1.62; }
-    main { width:min(920px,calc(100% - 32px)); margin:24px auto 72px; padding:clamp(20px,5vw,56px); background:var(--panel); border:1px solid var(--line); border-radius:24px; }
-    h1,h2,h3 { line-height:1.2; letter-spacing:-.02em; }
-    h2 { margin-top:2.4rem; padding-top:1rem; border-top:1px solid var(--line); }
-    h3 { margin-top:1.6rem; }
-    a { color:var(--brand); }
-    .meta,footer { color:var(--muted); }
-    .controller { display:grid; gap:4px; padding:18px; border:1px solid var(--line); border-radius:16px; }
-    .lang { margin-top:52px; }
-    footer { margin-top:48px; font-size:.9rem; }
+    :root { color-scheme: light dark; --bg: #f7faff; --panel: #ffffff; --text: #10213d; --muted: #53657f; --line: #d9e4f2; --link: #1769e0; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #071323; --panel: #0d1d32; --text: #eef6ff; --muted: #adc0d8; --line: #263a55; --link: #72a8ff; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.62; }
+    main { width: min(920px, calc(100% - 32px)); margin: 24px auto 72px; padding: clamp(20px, 5vw, 56px); background: var(--panel); border: 1px solid var(--line); border-radius: 24px; box-shadow: 0 18px 60px rgb(18 52 86 / 10%); }
+    h1, h2, h3 { line-height: 1.22; letter-spacing: -0.02em; scroll-margin-top: 20px; }
+    h1 { font-size: clamp(2rem, 6vw, 3.2rem); }
+    h2 { margin-top: 2.4rem; padding-top: .6rem; border-top: 1px solid var(--line); }
+    h3 { margin-top: 1.7rem; }
+    p, li { max-width: 76ch; }
+    a { color: var(--link); }
+    code { padding: .14em .36em; border-radius: .35em; background: color-mix(in srgb, var(--line) 55%, transparent); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
+    footer { color: var(--muted); font-size: .88rem; margin-top: 3rem; }
   </style>
 </head>
 <body>
-<main>
-  <p><a href="index.html">← Kurye</a></p>
-  <h1>Kurye Privacy Policy / Gizlilik Politikası</h1>
-  <p class="meta">Effective 19 July 2026 · Kurye · <code>com.ihsanapps.kurye</code></p>
-
-  <section lang="tr">
-    <h2>Türkçe</h2>
-    <h3>1. Veri sorumlusu</h3>
-    <div class="controller"><strong>COINFEEDBACK LTD</strong><span>71-75 Shelton Street, Covent Garden, London WC2H 9JQ, United Kingdom</span><span><a href="mailto:coinfeedback@icloud.com">coinfeedback@icloud.com</a> · <a href="tel:+905320602573">+90 532 060 25 73</a></span></div>
-    <p>Bu politika Kurye iOS uygulaması, üretim backend’i, destek kanalı ve Kurye yasal web sayfaları için geçerlidir.</p>
-
-    <h3>2. Kurye 1.0’ın veri yaklaşımı</h3>
-    <p>Kurye 1.0 hesapsız çalışır. Ad, e-posta, parola, rehber, kesin/yaklaşık konum, fotoğraf, ses veya ödeme kartı istemez. Reklam göstermez ve uygulamalar arası takip yapmaz.</p>
-    <h3>Yalnız cihazda tutulan bilgiler</h3>
-    <ul><li>Takip bağlantısı, numarası veya taşıyıcı durum metni.</li><li>Paket başlığı, oluşturulan özet, timeline ve teslimat tercihleri.</li><li>Uygulama dili, bildirim tercihi ve yerel kullanım geçmişi.</li></ul>
-    <p>Bu bilgiler cihazdaki uygulama alanında tutulur. Ayarlar’daki yerel veri silme işlemi veya uygulamanın kaldırılması geçmişi kaldırır. Kurye 1.0 hesap tabanlı cihazlar arası senkronizasyon yapmaz.</p>
-    <h3>İstek sırasında geçici işlenen bilgiler</h3>
-    <p>Kullanıcı “Taşıyıcıyı Bul” dediğinde ilgili takip metni yalnız o isteği yanıtlamak için TLS üzerinden Kurye backend’ine ve merkezi AI gateway’e gönderilir. İstek gövdesi ve AI yanıtı kalıcı olarak kaydedilmez; erişim loglarında takip içeriği yer almaz. İçerik reklam, pazarlama, profil oluşturma veya model eğitimi için kullanılmaz.</p>
-    <p>Takip için gerekmeyen adres, kimlik numarası, ödeme bilgisi veya hassas kişisel veri girilmemelidir. AI sonucu bir tahmindir; taşıyıcının resmî kaydı ve teslimat garantisi değildir.</p>
-    <h3>Abonelik ve satın alma bilgileri</h3>
-    <p>Apple ve RevenueCat anonim RevenueCat App User ID, ürün kimliği, entitlement, deneme, satın alma, yenileme, iptal, faturalama sorunu, geri ödeme ve restore durumunu işler. Kurye kart numarası, CVV veya Apple ID parolasını görmez.</p>
-    <p>Kurye backend’i ücretli erişimi doğrulamak için yalnız RevenueCat App User ID ve entitlement/satın alma durumunun sınırlı bir kopyasını tutar. Bu bilgiler reklam takibi için kullanılmaz.</p>
-    <h3>Destek</h3>
-    <p>Kullanıcı destek isterse gönüllü olarak paylaştığı iletişim ve mesaj içeriği talebi çözmek ve yasal yükümlülükleri yerine getirmek için gerekli süreyle tutulabilir. Takip numarası, parola, ödeme kartı veya kimlik belgesi gönderilmemelidir.</p>
-
-    <h3>3. Amaçlar</h3>
-    <ul><li>Geçici takip metnini kullanıcının talebi üzerine ayrıştırmak.</li><li>RevenueCat kimliği ve satın alma durumuyla satın alma, restore ve ücretli erişimi doğrulamak.</li><li>Rate limit ve güvenlik kontrolleriyle hizmet bütünlüğünü korumak.</li><li>Destek talebini yanıtlamak.</li></ul>
-    <p>Hukuki dayanak bağlama göre sözleşmenin ifası, kullanıcının talebi, meşru menfaat veya hukuki yükümlülüktür.</p>
-
-    <h3>4. Hizmet sağlayıcılar ve aktarım</h3>
-    <ul><li><strong>Apple:</strong> App Store, In-App Purchase ve bildirim izinleri.</li><li><strong>RevenueCat:</strong> Abonelik, entitlement, restore ve webhook senkronizasyonu.</li><li><strong>Merkezi AI gateway ve Google Vertex AI:</strong> Sunucudan sunucuya, tek isteklik AI işleme; credential ve gateway secret mobil uygulamada bulunmaz.</li><li><strong>Sunucu, ağ ve güvenlik sağlayıcıları:</strong> HTTPS hizmeti için gerekli altyapı.</li></ul>
-    <p>Sağlayıcılar veriyi Birleşik Krallık, AEA, ABD veya başka ülkelerde işleyebilir. Uygulanabilir olduğunda yeterlilik kararları, standart sözleşme maddeleri veya eşdeğer korumalar kullanılır.</p>
-
-    <h3>5. Analytics, crash raporu ve tracking</h3>
-    <ul><li>Kurye 1.0 üretiminde uzaktaki ürün analitiği hedefi etkin değildir.</li><li>Sentry DSN boş olduğu için crash/performance verisi gönderilmez.</li><li>ATT kullanılmaz; reklam kimliği alınmaz; üçüncü taraf reklam veya data-broker paylaşımı yapılmaz.</li></ul>
-
-    <h3>6. Saklama ve güvenlik</h3>
-    <ul><li>Takip isteği ve AI yanıtı gerçek zamanlı istek tamamlandıktan sonra tutulmaz.</li><li>RevenueCat App User ID ve entitlement kaydı satın alma doğrulaması için gerekli olduğu sürece tutulur; olay kimlikleri tekrar işlemeyi önler.</li><li>Destek ve yasal satın alma kayıtları yalnız gerekli operasyonel veya hukuki süreyle tutulur.</li><li>TLS, sunucu-tarafı secret’lar, minimum yetki, rate limit, webhook authorization, şema doğrulama ve log redaction kullanılır.</li></ul>
-
-    <h3>7. Haklar ve talepler</h3>
-    <p>Uygulanabilir GDPR/UK GDPR, KVKK ve CCPA/CPRA kapsamında erişim, düzeltme, silme, kısıtlama, taşınabilirlik, itiraz ve rızayı geri çekme hakları bulunabilir. Kurye kişisel veriyi satmaz veya cross-context reklam için paylaşmaz.</p>
-    <p><a href="mailto:coinfeedback@icloud.com?subject=Kurye%20Privacy%20Request">coinfeedback@icloud.com</a> adresine konu olarak “Kurye Privacy Request” yazın. Gereksiz takip, ödeme veya kimlik bilgisi göndermeyin. Yerel paket geçmişi Ayarlar’dan silinebilir; Apple aboneliği iOS Ayarlar → Apple ID → Abonelikler’den yönetilir.</p>
-    <h3>8. Çocuklar ve değişiklikler</h3><p>Kurye 13 yaş altı çocuklara yönelik değildir. Yerel dijital rıza yaşı daha yüksekse o eşik uygulanır. Maddi değişiklikler uygun bir kanalla bildirilir ve yürürlük tarihi güncellenir.</p>
-  </section>
-
-  <section class="lang" lang="en">
-    <h2>English</h2>
-    <h3>1. Controller</h3>
-    <div class="controller"><strong>COINFEEDBACK LTD</strong><span>71-75 Shelton Street, Covent Garden, London WC2H 9JQ, United Kingdom</span><span><a href="mailto:coinfeedback@icloud.com">coinfeedback@icloud.com</a> · <a href="tel:+905320602573">+90 532 060 25 73</a></span></div>
-    <p>This policy applies to the Kurye iOS app, production backend, support channel, and Kurye legal web pages.</p>
-
-    <h3>2. Kurye 1.0 data approach</h3>
-    <p>Kurye 1.0 works without an account. It does not request a name, email, password, contacts, precise or coarse location, photos, audio, or payment-card information. It shows no advertising and performs no cross-app tracking.</p>
-    <h3>Information kept only on the device</h3>
-    <ul><li>A tracking link, number, or carrier status text.</li><li>Package title, generated summary, timeline, and delivery preferences.</li><li>App language, notification preference, and local usage history.</li></ul>
-    <p>This information stays in local device storage. The local-data deletion control in Settings, or uninstalling the app, removes the history. Kurye 1.0 does not provide account-based cross-device sync.</p>
-    <h3>Information processed transiently for a request</h3>
-    <p>When the user selects “Detect Carrier,” the relevant tracking text is sent over TLS to the trusted Kurye backend and central AI gateway only to answer that request. The request body and AI response are not persistently stored, and tracking content is excluded from access logs. The content is not used for advertising, marketing, profiling, or model training.</p>
-    <p>Users should not enter an address, government identifier, payment information, or sensitive personal data that is unnecessary for tracking. AI output is an estimate, not an official carrier record or delivery guarantee.</p>
-    <h3>Subscription and purchase information</h3>
-    <p>Apple and RevenueCat process an anonymous RevenueCat App User ID, product identifier, entitlement, trial, purchase, renewal, cancellation, billing issue, refund, and restore state. Kurye never receives a card number, CVV, or Apple ID password.</p>
-    <p>The Kurye backend keeps only a limited copy of the RevenueCat App User ID and entitlement/purchase state to verify paid access. It is not used for advertising tracking.</p>
-    <h3>Support</h3><p>Voluntarily supplied contact and message content may be retained only as needed to resolve a support request and meet legal obligations. Users should not send a tracking number, password, payment card, or identity document.</p>
-
-    <h3>3. Purposes</h3>
-    <ul><li>Process tracking text transiently to return the user-requested result.</li><li>Use RevenueCat identity and purchase state for purchase, restore, and paid-access verification.</li><li>Protect service integrity through rate limiting and security controls.</li><li>Respond to support requests.</li></ul>
-    <p>The legal basis, depending on context, is contract performance, the user’s request, legitimate interests, or a legal obligation.</p>
-
-    <h3>4. Service providers and transfers</h3>
-    <ul><li><strong>Apple:</strong> App Store, In-App Purchase, and notification permissions.</li><li><strong>RevenueCat:</strong> Subscription, entitlement, restore, and webhook synchronization.</li><li><strong>Central AI gateway and Google Vertex AI:</strong> Server-to-server, single-request AI processing; credentials and the gateway secret are never included in the app.</li><li><strong>Hosting, network, and security providers:</strong> Infrastructure required for the HTTPS service.</li></ul>
-    <p>Providers may process data in the UK, EEA, US, or other countries. Adequacy decisions, standard contractual clauses, or equivalent safeguards are used where applicable.</p>
-
-    <h3>5. Analytics, crash reporting, and tracking</h3>
-    <ul><li>No remote product-analytics destination is enabled in Kurye 1.0 production.</li><li>The Sentry DSN is empty, so crash/performance information is not sent.</li><li>ATT is not used; no advertising identifier is accessed; there is no third-party advertising or data-broker sharing.</li></ul>
-
-    <h3>6. Retention and security</h3>
-    <ul><li>Tracking requests and AI responses are not retained after the real-time request completes.</li><li>The RevenueCat App User ID and entitlement record remain only as needed to verify purchase status; event IDs prevent duplicate processing.</li><li>Support and legally required purchase records are kept only for necessary operational or legal periods.</li><li>Controls include TLS, server-side secrets, least privilege, rate limiting, webhook authorization, schema validation, and log redaction.</li></ul>
-
-    <h3>7. Rights and requests</h3>
-    <p>Applicable GDPR/UK GDPR, Turkish data-protection, and CCPA/CPRA law may provide rights of access, correction, deletion, restriction, portability, objection, and withdrawal of consent. Kurye does not sell personal information or share it for cross-context advertising.</p>
-    <p>Email <a href="mailto:coinfeedback@icloud.com?subject=Kurye%20Privacy%20Request">coinfeedback@icloud.com</a> with “Kurye Privacy Request” in the subject. Do not include unnecessary tracking, payment, or identity data. Local package history can be deleted in Settings; Apple subscriptions are managed in iOS Settings → Apple ID → Subscriptions.</p>
-    <h3>8. Children and changes</h3><p>Kurye is not directed to children under 13. A higher local digital-consent age applies where required. Material changes will be communicated through an appropriate channel and the effective date will be updated.</p>
-  </section>
-
-  <footer>Last updated 19 July 2026 · Kurye · COINFEEDBACK LTD</footer>
-</main>
+  <main>
+<h1 id="kurye-gizlilik-politikası-kurye-privacy-policy">Kurye Gizlilik Politikası / Kurye Privacy Policy</h1>
+<p><strong>Yürürlük tarihi / Effective date:</strong> 19 Temmuz 2026 / 19 July 2026 <strong>Uygulama / App:</strong> Kurye (<code>com.ihsanapps.kurye</code>)</p>
+<hr>
+<h1 id="tu-rkc-e">Türkçe</h1>
+<h2 id="1-veri-sorumlusu">1. Veri sorumlusu</h2>
+<p><strong>COINFEEDBACK LTD</strong> 71-75 Shelton Street, Covent Garden London WC2H 9JQ, United Kingdom E-posta: <code>coinfeedback@icloud.com</code> Telefon: <code>+90 532 060 25 73</code></p>
+<p>Bu politika Kurye iOS uygulaması, üretim backend’i, destek kanalı ve Kurye’ye ait yasal web sayfaları için geçerlidir.</p>
+<h2 id="2-kurye-1-0-ın-veri-yaklas-ımı">2. Kurye 1.0’ın veri yaklaşımı</h2>
+<p>Kurye 1.0 hesapsız çalışır. Ad, e-posta, parola, rehber, kesin/yaklaşık konum, fotoğraf, ses veya ödeme kartı istemez. Reklam göstermez ve uygulamalar arası takip yapmaz.</p>
+<h3 id="2-1-yalnız-cihazda-tutulan-bilgiler">2.1 Yalnız cihazda tutulan bilgiler</h3>
+<ul>
+<li>Kullanıcının eklediği takip bağlantısı, numarası veya taşıyıcı durum metni.</li>
+<li>Paket başlığı, oluşturulan özet, timeline ve teslimat tercihleri.</li>
+<li>Uygulama dili, bildirim tercihi ve yerel kullanım geçmişi.</li>
+</ul>
+<p>Bu bilgiler cihazdaki uygulama alanında tutulur. Ayarlar’daki yerel veri silme işlemi veya uygulamanın kaldırılması bu yerel geçmişi kaldırır. Kurye 1.0 cihazlar arası hesap senkronizasyonu yapmaz.</p>
+<h3 id="2-2-i-stek-sırasında-gec-ici-is-lenen-bilgiler">2.2 İstek sırasında geçici işlenen bilgiler</h3>
+<p>Kullanıcı “Taşıyıcıyı Bul” dediğinde ilgili takip metni, yalnız o isteği yanıtlamak için TLS üzerinden Kurye backend’ine ve merkezi AI gateway’e gönderilir. İstek gövdesi ve AI yanıtı Kurye backend’i veya gateway tarafından kalıcı olarak kaydedilmez; erişim loglarında takip içeriği yer almaz. Bu içerik reklam, pazarlama, profil oluşturma veya model eğitimi amacıyla kullanılmaz.</p>
+<p>Kullanıcı takip için gerekmeyen adres, kimlik numarası, ödeme bilgisi veya hassas kişisel veri girmemelidir. AI sonucu bir tahmindir; taşıyıcının resmî kaydı ve teslimat garantisi değildir.</p>
+<h3 id="2-3-abonelik-ve-satın-alma-bilgileri">2.3 Abonelik ve satın alma bilgileri</h3>
+<p>Apple ve RevenueCat şu bilgileri işler: anonim RevenueCat App User ID, ürün kimliği, entitlement, deneme, satın alma, yenileme, iptal, faturalama sorunu, geri ödeme ve restore durumu. Kurye kart numarası, CVV veya Apple ID parolasını görmez.</p>
+<p>Kurye backend’i ücretli erişimi doğrulamak için yalnız RevenueCat App User ID ve entitlement/satın alma durumunun sınırlı bir kopyasını tutar. Bu bilgiler reklam takibi için kullanılmaz.</p>
+<h3 id="2-4-destek">2.4 Destek</h3>
+<p>Kullanıcı e-posta veya telefonla destek isterse, gönüllü olarak paylaştığı iletişim ve mesaj içeriği talebi çözmek ve yasal yükümlülükleri yerine getirmek için gerekli süreyle tutulabilir. Destek mesajında takip numarası, parola, ödeme kartı veya kimlik belgesi gönderilmemelidir.</p>
+<h2 id="3-amac-lar-ve-hukuki-dayanak">3. Amaçlar ve hukuki dayanak</h2>
+<p>| İşlem | Amaç | Dayanak | | --- | --- | --- | | Geçici takip metni işleme | Taşıyıcı/metin ayrıştırma ve kullanıcıya sonuç üretme | Sözleşmenin ifası / kullanıcının talebi | | RevenueCat kimliği ve satın alma durumu | Satın alma, restore ve ücretli erişim doğrulaması | Sözleşmenin ifası, hukuki yükümlülük | | Güvenlik ve rate limit | Hizmet bütünlüğü ve kötüye kullanımın önlenmesi | Meşru menfaat | | Destek iletişimi | Talebi yanıtlamak | Sözleşmenin ifası / meşru menfaat |</p>
+<h2 id="4-hizmet-sag-layıcılar-ve-aktarım">4. Hizmet sağlayıcılar ve aktarım</h2>
+<ul>
+<li><strong>Apple:</strong> App Store dağıtımı, In-App Purchase ve bildirim izinleri.</li>
+<li><strong>RevenueCat:</strong> Abonelik, entitlement, restore ve webhook senkronizasyonu.</li>
+<li><strong>Merkezi AI gateway ve Google Vertex AI:</strong> Yalnız sunucudan sunucuya, tek isteklik AI işleme. Credential ve gateway secret mobil uygulamada bulunmaz.</li>
+<li><strong>Sunucu, ağ ve güvenlik sağlayıcıları:</strong> HTTPS hizmetinin işletilmesi için gerekli altyapı.</li>
+</ul>
+<p>Bu sağlayıcılar veriyi Birleşik Krallık, Avrupa Ekonomik Alanı, Amerika Birleşik Devletleri veya başka ülkelerde işleyebilir. Uygulanabilir olduğunda yeterlilik kararları, standart sözleşme maddeleri veya eşdeğer korumalar kullanılır.</p>
+<h2 id="5-analytics-crash-raporu-ve-tracking">5. Analytics, crash raporu ve tracking</h2>
+<ul>
+<li>Kurye 1.0 üretim yapılandırmasında uzaktaki bir ürün analitiği hedefi etkin değildir.</li>
+<li>Kurye 1.0 binary’sinde Sentry veya başka bir uzaktan crash/performance SDK’sı bulunmaz.</li>
+<li>ATT kullanılmaz; reklam kimliği alınmaz; üçüncü taraf reklam veya data-broker paylaşımı yapılmaz.</li>
+<li>Bu davranış değişmeden App Store privacy label değiştirilemez.</li>
+</ul>
+<h2 id="6-saklama-ve-gu-venlik">6. Saklama ve güvenlik</h2>
+<ul>
+<li>Takip isteği ve AI yanıtı gerçek zamanlı istek tamamlandıktan sonra Kurye sistemlerinde tutulmaz.</li>
+<li>RevenueCat App User ID ve entitlement kaydı, satın alma durumunu doğrulamak için gerekli olduğu sürece tutulur; RevenueCat olay kimlikleri tekrar işlemeyi önlemek için saklanır.</li>
+<li>Destek ve yasal satın alma kayıtları yalnız operasyonel veya hukuken gerekli süreyle tutulur.</li>
+<li>TLS, sunucu-tarafı secret’lar, minimum yetki, rate limit, webhook authorization, şema doğrulama ve log redaction kullanılır.</li>
+</ul>
+<h2 id="7-kullanıcı-hakları-ve-talepler">7. Kullanıcı hakları ve talepler</h2>
+<p>Uygulanabilir GDPR/UK GDPR, KVKK ve CCPA/CPRA kapsamında erişim, düzeltme, silme, kısıtlama, taşınabilirlik, itiraz ve rızayı geri çekme hakları bulunabilir. Kurye kişisel veriyi satmaz veya cross-context reklam için paylaşmaz.</p>
+<p>Talep: <code>coinfeedback@icloud.com</code> — konuya “Kurye Privacy Request” yazın. Talepte gereksiz takip, ödeme veya kimlik bilgisi göndermeyin. Yerel paket geçmişi Ayarlar’dan doğrudan silinebilir. Apple aboneliği ayrıca iOS Ayarlar → Apple ID → Abonelikler’den yönetilir.</p>
+<h2 id="8-c-ocuklar-ve-deg-is-iklikler">8. Çocuklar ve değişiklikler</h2>
+<p>Kurye 13 yaş altı çocuklara yönelik değildir. Yerel dijital rıza yaşı daha yüksekse o eşik uygulanır. Maddi politika değişiklikleri uygulama içinde veya uygun başka bir kanalla bildirilir ve yürürlük tarihi güncellenir.</p>
+<hr>
+<h1 id="english">English</h1>
+<h2 id="1-controller">1. Controller</h2>
+<p><strong>COINFEEDBACK LTD</strong> 71-75 Shelton Street, Covent Garden London WC2H 9JQ, United Kingdom Email: <code>coinfeedback@icloud.com</code> Phone: <code>+90 532 060 25 73</code></p>
+<p>This policy applies to the Kurye iOS app, production backend, support channel, and Kurye legal web pages.</p>
+<h2 id="2-kurye-1-0-data-approach">2. Kurye 1.0 data approach</h2>
+<p>Kurye 1.0 works without an account. It does not request a name, email, password, contacts, precise or coarse location, photos, audio, or payment-card information. It shows no advertising and performs no cross-app tracking.</p>
+<h3 id="2-1-information-kept-only-on-the-device">2.1 Information kept only on the device</h3>
+<ul>
+<li>A tracking link, number, or carrier status text added by the user.</li>
+<li>Package title, generated summary, timeline, and delivery preferences.</li>
+<li>App language, notification preference, and local usage history.</li>
+</ul>
+<p>This information stays in the app’s local device storage. The local-data deletion control in Settings, or uninstalling the app, removes that history. Kurye 1.0 does not provide account-based cross-device sync.</p>
+<h3 id="2-2-information-processed-transiently-for-a-request">2.2 Information processed transiently for a request</h3>
+<p>When the user selects “Detect Carrier,” the relevant tracking text is sent over TLS to the trusted Kurye backend and central AI gateway only to answer that request. The request body and AI response are not persistently stored by the Kurye backend or gateway, and tracking content is excluded from access logs. The content is not used for advertising, marketing, profiling, or model training.</p>
+<p>Users should not enter an address, government identifier, payment information, or sensitive personal data that is unnecessary for tracking. AI output is an estimate, not an official carrier record or delivery guarantee.</p>
+<h3 id="2-3-subscription-and-purchase-information">2.3 Subscription and purchase information</h3>
+<p>Apple and RevenueCat process an anonymous RevenueCat App User ID, product identifier, entitlement, trial, purchase, renewal, cancellation, billing issue, refund, and restore state. Kurye never receives a card number, CVV, or Apple ID password.</p>
+<p>The Kurye backend keeps only a limited copy of the RevenueCat App User ID and entitlement/purchase state to verify paid access. It is not used for advertising tracking.</p>
+<h3 id="2-4-support">2.4 Support</h3>
+<p>If a user contacts support by email or phone, voluntarily supplied contact and message content may be retained only as needed to resolve the request and meet legal obligations. Users should not send a tracking number, password, payment card, or identity document in a support message.</p>
+<h2 id="3-purposes-and-legal-bases">3. Purposes and legal bases</h2>
+<p>| Processing | Purpose | Legal basis | | --- | --- | --- | | Transient tracking-text processing | Parse carrier text and return the requested result | Contract performance / user request | | RevenueCat ID and purchase state | Purchase, restore, and paid-access verification | Contract performance, legal obligation | | Security and rate limiting | Service integrity and abuse prevention | Legitimate interests | | Support communication | Respond to the request | Contract performance / legitimate interests |</p>
+<h2 id="4-service-providers-and-transfers">4. Service providers and transfers</h2>
+<ul>
+<li><strong>Apple:</strong> App Store distribution, In-App Purchase, and notification permissions.</li>
+<li><strong>RevenueCat:</strong> Subscription, entitlement, restore, and webhook synchronization.</li>
+<li><strong>Central AI gateway and Google Vertex AI:</strong> Server-to-server, single-request AI processing. Credentials and the gateway secret are never included in the mobile app.</li>
+<li><strong>Hosting, network, and security providers:</strong> Infrastructure required to operate the HTTPS service.</li>
+</ul>
+<p>Providers may process data in the United Kingdom, European Economic Area, United States, or other countries. Adequacy decisions, standard contractual clauses, or equivalent safeguards are used where applicable.</p>
+<h2 id="5-analytics-crash-reporting-and-tracking">5. Analytics, crash reporting, and tracking</h2>
+<ul>
+<li>No remote product-analytics destination is enabled in the Kurye 1.0 production configuration.</li>
+<li>The Kurye 1.0 binary does not include Sentry or another remote crash/performance SDK.</li>
+<li>ATT is not used; no advertising identifier is accessed; there is no third-party advertising or data-broker sharing.</li>
+<li>App Store privacy answers must be updated before this behavior changes.</li>
+</ul>
+<h2 id="6-retention-and-security">6. Retention and security</h2>
+<ul>
+<li>Tracking requests and AI responses are not retained in Kurye systems after the real-time request completes.</li>
+<li>The RevenueCat App User ID and entitlement record remain only as needed to verify purchase status; RevenueCat event IDs are retained to prevent duplicate processing.</li>
+<li>Support and legally required purchase records are kept only for necessary operational or legal periods.</li>
+<li>Controls include TLS, server-side secrets, least privilege, rate limiting, webhook authorization, schema validation, and log redaction.</li>
+</ul>
+<h2 id="7-rights-and-requests">7. Rights and requests</h2>
+<p>Applicable GDPR/UK GDPR, Turkish data-protection, and CCPA/CPRA law may provide rights of access, correction, deletion, restriction, portability, objection, and withdrawal of consent. Kurye does not sell personal information or share it for cross-context advertising.</p>
+<p>Request: <code>coinfeedback@icloud.com</code> with “Kurye Privacy Request” in the subject. Do not include unnecessary tracking, payment, or identity data. Local package history can be deleted directly in Settings. Apple subscriptions are managed separately in iOS Settings → Apple ID → Subscriptions.</p>
+<h2 id="8-children-and-changes">8. Children and changes</h2>
+<p>Kurye is not directed to children under 13. A higher local digital-consent age applies where required. Material policy changes will be communicated in the app or through another appropriate channel, and the effective date will be updated.</p>
+    <footer>Kurye · COINFEEDBACK LTD · Last generated 19 July 2026</footer>
+  </main>
 </body>
 </html>
